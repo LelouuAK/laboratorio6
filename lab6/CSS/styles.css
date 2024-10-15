@@ -1,0 +1,96 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #f4a261;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #e76f51;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #264653;
+}
+
+header p.lead {
+    font-size: 1.2em;
+    color: #2a9d8f;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #264653;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar ul li a:hover {
+    background-color: #2a9d8f;
+    border-radius: 5px;
+}
+
+/* Posts */
+.post {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #e9c46a;
+    border-radius: 10px;
+   
+}
+/* Estilos generales para todos los posts */
+.post {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #e9c46a;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #f7f7f7;
+}
+
+/* Estilos específicos para Post 1 */
+#post-uno {
+    background-color: #f4f1de;
+    border-color: #f4a261;
+}
+
+#post-uno img {
+    border: 5px solid #264653;
+}
+
+/* Estilos específicos para Post 2 */
+#post-dos {
+    background-color: #e9c46a;
+    border-color: #2a9d8f;
+}
+
+#post-dos img {
+    border: 5px solid #264653;
+}
